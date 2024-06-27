@@ -145,7 +145,7 @@
                 Rating: <div id="Display"></div>
                 <script>
                     async function fetchData(){
-                        const response = await fetch("https://codeforces.com/api/user.info?handles=Hr_bot");
+                        const response = await fetch("https://codeforces.com/api/user.info?handles=bot_AR");
                         const Data = await response.json();
                         myrating = Data.result[0].rating;
                         console.log(myrating);
